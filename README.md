@@ -33,7 +33,7 @@ This project uses publically available data form The Movie Database (TMDB).  Tre
 
 The vast majority of movies recoup their investment at the box office, but not all are successful.
 
-![budget_revenue_regression](./images/budget_revenue_regressio.png)
+![budget_revenue_regression](./images/budget_revenue_regression.png)
 
 Historically, studios tend to invest more heavily depending on the genre.  Adventure, family, fantasy, and science fiction generally receive the most investment.  War and western movies tend to lose money at the box office despite having budgets that are similar to other low budget genres.
 
