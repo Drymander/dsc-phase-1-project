@@ -1,65 +1,82 @@
-# Phase 1 Project
+![austin animal center](./images/austin-animal-center.jpg)
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+# Microsoft Films Industry Analysis
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+**Author**: [Johnny Dryman](mailto:johnnydryman@gmail.com)
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+## Overview
 
-## Project Overview
+This project analyzes theatrical films with intention of guiding Microsoft through the launch of its new film studio. The results of these analyses will yield actionable insights that Microsoft's new studio head can use to determine what types of films to develop.
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+## Business Problem
 
-### Business Problem
+![img](./images/animals.png)
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Releasing movies is a daunting endeavor. Not only will it require millions, if not hundreds of millions of dollars to fund wide theatrical releases, it will also require a deep understanding of what today's audiences are willing to watch. Before sending films into production, we need to know what genre of film people are willing to see how we can ensure that audiences have an opportunity to see the film.
 
-### The Data
+## Data
 
-In the folder `zippedData` are movie datasets from:
+Without years of experience in the industry, our best bet will be to take a look at a large yet targeted sample of theatrical releases.  There are many websites dedicated to box office and film data.  For this project, we will source our data using The Movie Databse's API.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+TMDB offers a sound and comprehensive dataset that will be a good foundation for our initial research.  The site has detailed information on over 500,000 theatrical releases throughout history.  While it would be interesting to analyze every film in the database, it would be more apt to target our research in the direction of films that Microsoft is likely to produce.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+This project assumes a few things:
+- Microsoft is a for profit organization and will be interested in making movies that have a broad market appeal.
+- At the beginning of this venture, be focused exclusively on wide releases, and will not enter films into the festival circuit.
+- While it is generally preferable to release movies that are highly acclaimed, Microsoft will use historical production budget and box office revenue to indicate success.  In other words, we believe that movie goers will vote on what they like with their wallets.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+## Methods
 
-## Deliverables
+This project uses publically available data form The Movie Database (TMDB).  Trends have been analyzed using descriptive analysis, which provides a useful framework for understanding the modern box office landscape.
 
-There are three deliverables for this project:
+## Results
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+The vast majority of movies recoup their investment at the box office, but not all are successful.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+![stay_lengths_by_type](./images/stay_lengths_by_type.png)
 
-### Key Points
+Historically, studios tend to invest more heavily depending on the genre.  Adventure, family, fantasy, and science fiction generally receive the most investment.  War and western movies tend to lose money at the box office despite having budgets that are similar to other low budget genres.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+![sheltered_by_month.png](./images/sheltered_by_month.png)
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+MPAA ratings have a significant impact on ROI.  This is likely caused by the suggested age restriction on PG-13 rated movies and more noticeably with the often enforced age restriction of R rated movies and legal restriction on NC-17 movies.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+![sheltered_by_month.png](./images/sheltered_by_month.png)
 
-## Getting Started
+# Conclusions
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+This analysis yielded three recommendations for Microsoft's first productions:
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+* **Budget and revenue are correlated, but this does not suggest Microsoft should spend frivolously.**  Our data set is representative of studios and film makers that are guided by profit and have many decades of experience.  Considering Microsoft is new to the business, caution should be taken to avoid box office failures.  
+* **For the strongest returns, Microsoft should focus on the Adventure, Animation, Family, Fantasy, and Science Fiction genres.**  Elements of action and comedy can also be considered.  Horror, Music, Mystery, Romance, and Thriller genres have attractive ROI's, but these genres should only be approached with lower budgets in mind.  War and Western movies should be avoided.
+* **Microsoft should script movies with the family audience in mind.**  'Edgy' elements can be considered, but a PG-13 rating will have a noticeable impact on ROI.  R ratings should only be considered with lower budget movies, and NC-17 and NR films should be avoided entirely.
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+# Next Steps
 
-## Project Submission and Review
+Further analysis could reveal more nuanced insights to help Microsoft in their film venture:
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+* **What are the commonalities in box office flops?**  Comparing a dataset of unsuccessful films against a dataset with successful films could help solidify or further clarify the findings in this analysis.
 
-## Summary
+* **Deeper examination of individual movie genres.**  Knowing now which genres have the strongest returns, creating a dataset with just Adventure, Family, etc. could reveal trends within those genres.  These can be used to instruct what to pursue and what to avoid.
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+* **Elementary analysis of franchise films, popularity, production companies, and runtime.**  Given more time, it could be fruitful to analyze these categories in the dataset from this project.
+
+* **Incorporate and compare TMDB dataset against datasets from other sources.**  It would be helpful to solidify our box office revenue and budget data.  We found that some pieces of data in the TMDB dataset conflicted with other sources.  Financing an IMDB API license could yield higher quality data since TMDB data is sourced by users.  Finally, Rotten Tomatoes API should be implemented to understand the relationship between review scores and box office returns.
+
+## For More Information
+
+See the full analysis in the [Jupyter Notebook](./animal-shelter-needs-analysis.ipynb) or review this [presentation](./Animal_Shelter_Needs_Presentation.pdf).
+
+For additional info, contact Alison Peebles Madigan at [alison.peeblesmadigan@flatironschool.com](mailto:alison.peeblesmadigan@flatironschool.com)
+
+![logo](./images/aac_logo_tall.jpg)
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── README.md
+├── Animal_Shelter_Needs_Presentation.pdf
+└── animal_shelter_needs_analysis.ipynb
+```
