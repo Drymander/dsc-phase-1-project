@@ -1,6 +1,6 @@
 ![austin animal center](./images/austin-animal-center.jpg)
 
-# Microsoft Films Industry Analysis
+# Box Office Analysis
 
 **Author**: [Johnny Dryman](mailto:johnnydryman@gmail.com)
 
@@ -65,9 +65,9 @@ Further analysis could reveal more nuanced insights to help Microsoft in their f
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](./animal-shelter-needs-analysis.ipynb) or review this [presentation](./Animal_Shelter_Needs_Presentation.pdf).
+See the full analysis in the [Jupyter Notebook](./box_office_analysis.ipynb) or review this [presentation](./Box_Office_Analysis_Presentation.pdf).
 
-For additional info, contact Alison Peebles Madigan at [alison.peeblesmadigan@flatironschool.com](mailto:alison.peeblesmadigan@flatironschool.com)
+For additional info, contact Johnny Dryman at [johnnydryman@gmail.com](mailto:johnnydryman@gmail.com)
 
 ![logo](./images/aac_logo_tall.jpg)
 
@@ -77,6 +77,6 @@ For additional info, contact Alison Peebles Madigan at [alison.peeblesmadigan@fl
 ├── data
 ├── images
 ├── README.md
-├── Animal_Shelter_Needs_Presentation.pdf
-└── animal_shelter_needs_analysis.ipynb
+├── Box_Office_Analysis_Presentation.pdf
+└── box_office_analysis.ipynb.ipynb
 ```
