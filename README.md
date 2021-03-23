@@ -1,4 +1,3 @@
-![austin animal center](./images/austin-animal-center.jpg)
 
 # Box Office Analysis
 
@@ -9,8 +8,6 @@
 This project analyzes theatrical films with intention of guiding Microsoft through the launch of its new film studio. The results of these analyses will yield actionable insights that Microsoft's new studio head can use to determine what types of films to develop.
 
 ## Business Problem
-
-![img](./images/animals.png)
 
 Releasing movies is a daunting endeavor. Not only will it require millions, if not hundreds of millions of dollars to fund wide theatrical releases, it will also require a deep understanding of what today's audiences are willing to watch. Before sending films into production, we need to know what genre of film people are willing to see how we can ensure that audiences have an opportunity to see the film.
 
@@ -48,7 +45,9 @@ MPAA ratings have a significant impact on ROI.  This is likely caused by the sug
 This analysis yielded three recommendations for Microsoft's first productions:
 
 * **Budget and revenue are correlated, but this does not suggest Microsoft should spend frivolously.**  Our data set is representative of studios and film makers that are guided by profit and have many decades of experience.  Considering Microsoft is new to the business, caution should be taken to avoid box office failures.  
+
 * **For the strongest returns, Microsoft should focus on the Adventure, Animation, Family, Fantasy, and Science Fiction genres.**  Elements of action and comedy can also be considered.  Horror, Music, Mystery, Romance, and Thriller genres have attractive ROI's, but these genres should only be approached with lower budgets in mind.  War and Western movies should be avoided.
+
 * **Microsoft should script movies with the family audience in mind.**  'Edgy' elements can be considered, but a PG-13 rating will have a noticeable impact on ROI.  R ratings should only be considered with lower budget movies, and NC-17 and NR films should be avoided entirely.
 
 # Next Steps
@@ -68,8 +67,6 @@ Further analysis could reveal more nuanced insights to help Microsoft in their f
 See the full analysis in the [Jupyter Notebook](./box_office_analysis.ipynb) or review this [presentation](./Box_Office_Analysis_Presentation.pdf).
 
 For additional info, contact Johnny Dryman at [johnnydryman@gmail.com](mailto:johnnydryman@gmail.com)
-
-![logo](./images/aac_logo_tall.jpg)
 
 ## Repository Structure
 
