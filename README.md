@@ -34,7 +34,7 @@ The vast majority of movies recoup their investment at the box office, but not a
 
 Historically, studios tend to invest more heavily depending on the genre.  Adventure, family, fantasy, and science fiction generally receive the most investment.  War and western movies tend to lose money at the box office despite having budgets that are similar to other low budget genres.
 
-![genre_comparison](./images/genre_comparison.png)
+![genre_comparison](./images/genre_comparison_median.png)
 
 MPAA ratings have a significant impact on ROI.  This is likely caused by the suggested age restriction on PG-13 rated movies and more noticeably with the often enforced age restriction of R rated movies and legal restriction on NC-17 movies.
 
