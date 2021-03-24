@@ -13,7 +13,7 @@ Releasing movies is a daunting endeavor. Not only will it require millions, if n
 
 ## Data
 
-Without years of experience in the industry, our best bet will be to take a look at a large yet targeted sample of theatrical releases.  There are many websites dedicated to box office and film data.  For this project, we will source our data using The Movie Databse's API.
+Without years of experience in the industry, our best bet will be to take a look at a large yet targeted sample of theatrical releases.  There are many websites dedicated to box office and film data.  For this project, we will source our data using The Movie Database's API.
 
 TMDB offers a sound and comprehensive dataset that will be a good foundation for our initial research.  The site has detailed information on over 500,000 theatrical releases throughout history.  While it would be interesting to analyze every film in the database, it would be more apt to target our research in the direction of films that Microsoft is likely to produce.
 
@@ -24,7 +24,7 @@ This project assumes a few things:
 
 ## Methods
 
-This project uses publically available data form The Movie Database (TMDB).  Trends have been analyzed using descriptive analysis, which provides a useful framework for understanding the modern box office landscape.
+This project uses publicly available data form The Movie Database (TMDB).  Trends have been analyzed using descriptive analysis, which provides a useful framework for understanding the modern box office landscape.
 
 ## Results
 
